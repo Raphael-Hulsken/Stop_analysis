@@ -27,4 +27,6 @@ Here I give some explanation for the program that I used/create :
 
 - the name_of_region/ folder : it is the one were I put the file with the name of the regions in but take care when you compile the raphael.cc code the file don't go in this folder but in the main folder
 
+- the dat file are the file where I put the incertainties for each background it is used to create the card for combine for example
+
 I you have questions about some code I write feel free to ask. =)
