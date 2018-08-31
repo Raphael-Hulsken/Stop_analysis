@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Variables>
+<Variable tag="yield" label="Yield" unit="" nbins="1" min="-0.5" max="0.5"/>
+<Variable tag="MET" label="MET" unit="MET" nbins="20" min="200" max="1000"/>
+<Variable tag="MT2W" label="MT2W" unit="MT2W" nbins="100" min="0" max="1000"/>
+<Variable tag="MT" label="MT" unit="MT" nbins="100" min="100" max="1000"/>
+<Variable tag="topness" label="topness" unit="topness" nbins="20" min="0" max="20"/>
+<Variable tag="nJets" label="nJets" unit="nJets" nbins="5" min="0.5" max="5.5"/>
+<Variable tag="dphi" label="dphi" unit="dphi" nbins="50" min="-0.5" max="5.5"/>
+<Variable tag="ST" label="ST" unit="S_{T}" nbins="25" min="0" max="1000"/>
+<Variable tag="LP" label="LP" unit="L_{P}" nbins="200" min="0" max="1"/>
+<Variable tag="Meff" label="Meff" unit="M_{eff}" nbins="25" min="0" max="4000"/>
+<Variable tag="MTdeco_Q" label="MTdeco_Q" unit="MTdeco_Q" nbins="30" min="0" max="600"/>
+<Variable tag="DeltaPtbb" label="DeltaPtbb" unit="DeltaPtbb" nbins="25" min="0" max="1"/>
+<Variable tag="dphi_Wlep" label="dphi_Wlep" unit="dphi_Wlep" nbins="25" min="0" max="3.5"/>
+<Variable tag="dR_lep_leadb" label="dR_lep_leadb" unit="dR_lep_leadb" nbins="25" min="0" max="3.5"/>
+<Variable tag="ak4_HT" label="ak4_HT" unit="ak4_HT" nbins="25" min="0" max="2000"/>
+<Variable tag="ak4_htssm" label="ak4_htssm" unit="ak4_htssm" nbins="25" min="0" max="1000"/>
+<Variable tag="ak4_htosm" label="ak4_htosm" unit="ak4_htosm" nbins="25" min="0" max="1500"/>
+</Variables>
+<Regions>
+<Region tag="SR1l" label="SR1l" />
+<Region tag="CR1l" label="CR1l" />
+<Region tag="CR2l" label="CR2l" />
+</Regions>
+<Channels>
+<Channel tag="lepChannel" label="lepChannel" />
+</Channels>
+<ProcessClasses>
+<ProcessClass tag="rare" label="rare" type="background" color="600" />
+<ProcessClass tag="throw" label="throw" type="signal" color="600" />
+<ProcessClass tag="425.000000_250.000000" label="425.000000_250.000000" type="signal" color="880" />
+<ProcessClass tag="500.000000_1.000000" label="500.000000_1.000000" type="signal" color="881" />
+<ProcessClass tag="900.000000_50.000000" label="900.000000_50.000000" type="signal" color="882" />
+<ProcessClass tag="data" label="data" type="data" color="1" />
+<ProcessClass tag="test" label="other" type="background" color="1" />
+<ProcessClass tag="lostLepton" label="lostLepton" type="background" color="900" />
+<ProcessClass tag="singleLepton" label="singleLepton" type="background" color="416" />
+<ProcessClass tag="singleLeptonFromT" label="singleLeptonFromT" type="background" color="800" />
+</ProcessClasses>
+<Datasets>
+<Dataset tag="ttZ" label="rare" processClass="rare" XsecOrLumi="0.7826" getTrueNumberOfEvents="0" />
+<Dataset tag="tZq" label="rare" processClass="rare" XsecOrLumi="0.0758" getTrueNumberOfEvents="0" />
+<Dataset tag="ZZ" label="rare" processClass="rare" XsecOrLumi="0.564" getTrueNumberOfEvents="0" />
+<Dataset tag="T2tt_400to1200" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SE_0" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SE_1" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SM_0" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SM_1" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_s" label="test" processClass="test" XsecOrLumi="3.68182" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_tW_top" label="test" processClass="test" XsecOrLumi="19.5592" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_tW_atop" label="test" processClass="test" XsecOrLumi="19.5592" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_t" label="test" processClass="test" XsecOrLumi="26.2278" getTrueNumberOfEvents="0" />
+<Dataset tag="TTJetsSLtop" label="test" processClass="test" XsecOrLumi="182.672" getTrueNumberOfEvents="0" />
+<Dataset tag="TTJetsSLatopv1" label="test" processClass="test" XsecOrLumi="182.672" getTrueNumberOfEvents="0" />
+<Dataset tag="TTJetsDLv0v4" label="test" processClass="test" XsecOrLumi="87.3154" getTrueNumberOfEvents="0" />
+<Dataset tag="W1JetsToLNuTune" label="test" processClass="test" XsecOrLumi="11752.3" getTrueNumberOfEvents="0" />
+<Dataset tag="W2JetsToLNuTune" label="test" processClass="test" XsecOrLumi="3840.72" getTrueNumberOfEvents="0" />
+<Dataset tag="W3JetsToLNuTune" label="test" processClass="test" XsecOrLumi="1159.97" getTrueNumberOfEvents="0" />
+<Dataset tag="W4JetsToLNuTune" label="test" processClass="test" XsecOrLumi="583.959" getTrueNumberOfEvents="0" />
+<Dataset tag="TTWtoQQ" label="test" processClass="test" XsecOrLumi="0.4062" getTrueNumberOfEvents="0" />
+<Dataset tag="TTWtoLNu" label="test" processClass="test" XsecOrLumi="0.2043" getTrueNumberOfEvents="0" />
+<Dataset tag="TTT" label="test" processClass="test" XsecOrLumi="1" getTrueNumberOfEvents="0" />
+<Dataset tag="VV" label="test" processClass="test" XsecOrLumi="11.95" getTrueNumberOfEvents="0" />
+</Datasets>

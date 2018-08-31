@@ -1,0 +1,1 @@
+g++ `root-config --cflags --glibs` Skimmer.C

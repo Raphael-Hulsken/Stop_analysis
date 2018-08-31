@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<Variables>
+<Variable tag="yield" label="Yield" unit="" nbins="1" min="-0.5" max="0.5"/>
+<Variable tag="MET" label="MET" unit="MET" nbins="4" min="150" max="550"/>
+<Variable tag="LeptonPT" label="LeptonPT" unit="Lepton PT" nbins="11" binning="20-25-30-35-40-50-80-100-125-150-200300-"/>
+<Variable tag="nJets" label="nJets" unit="nJets" nbins="5" min="0.5" max="5.5"/>
+</Variables>
+<Regions>
+<Region tag="SR1l" label="SR1l" />
+<Region tag="CR1l" label="CR1l" />
+<Region tag="CR2l" label="CR2l" />
+<Region tag="SR1l2jMET250to350" label="SR1l2jMET250to350" />
+<Region tag="SR1l2jMET350to450" label="SR1l2jMET350to450" />
+<Region tag="SR1l2jMET450toInf" label="SR1l2jMET450toInf" />
+<Region tag="SR1l3jMET250to350" label="SR1l3jMET250to350" />
+<Region tag="SR1l3jMET350to450" label="SR1l3jMET350to450" />
+<Region tag="SR1l3jMET450to550" label="SR1l3jMET450to550" />
+<Region tag="SR1l3jMET550toInf" label="SR1l3jMET550toInf" />
+<Region tag="SR1l4jMET250to350lowMT2W" label="SR1l4jMET250to350lowMT2W" />
+<Region tag="SR1l4jMET350to450lowMT2W" label="SR1l4jMET350to450lowMT2W" />
+<Region tag="SR1l4jMET450toInflowMT2W" label="SR1l4jMET450toInflowMT2W" />
+<Region tag="SR1l4jMET250to350highMT2W" label="SR1l4jMET250to350highMT2W" />
+<Region tag="SR1l4jMET350to450highMT2W" label="SR1l4jMET350to450highMT2W" />
+<Region tag="SR1l4jMET450to550highMT2W" label="SR1l4jMET450to550highMT2W" />
+<Region tag="SR1l4jMET550to650highMT2W" label="SR1l4jMET550to650highMT2W" />
+<Region tag="SR1l4jMET650toInfhighMT2W" label="SR1l4jMET650toInfhighMT2W" />
+<Region tag="CR2l2jMET250to350" label="CR2l2jMET250to350" />
+<Region tag="CR2l2jMET350to450" label="CR2l2jMET350to450" />
+<Region tag="CR2l2jMET450toInf" label="CR2l2jMET450toInf" />
+<Region tag="CR2l3jMET250to350" label="CR2l3jMET250to350" />
+<Region tag="CR2l3jMET350to450" label="CR2l3jMET350to450" />
+<Region tag="CR2l3jMET450to550" label="CR2l3jMET450to550" />
+<Region tag="CR2l3jMET550toInf" label="CR2l3jMET550toInf" />
+<Region tag="CR2l4jMET250to350lowMT2W" label="CR2l4jMET250to350lowMT2W" />
+<Region tag="CR2l4jMET350to450lowMT2W" label="CR2l4jMET350to450lowMT2W" />
+<Region tag="CR2l4jMET450toInflowMT2W" label="CR2l4jMET450toInflowMT2W" />
+<Region tag="CR2l4jMET250to350highMT2W" label="CR2l4jMET250to350highMT2W" />
+<Region tag="CR2l4jMET350to450highMT2W" label="CR2l4jMET350to450highMT2W" />
+<Region tag="CR2l4jMET450to550highMT2W" label="CR2l4jMET450to550highMT2W" />
+<Region tag="CR2l4jMET550to650highMT2W" label="CR2l4jMET550to650highMT2W" />
+<Region tag="CR2l4jMET650toInfhighMT2W" label="CR2l4jMET650toInfhighMT2W" />
+<Region tag="CR1l2jMET250to350" label="CR1l2jMET250to350" />
+<Region tag="CR1l2jMET350to450" label="CR1l2jMET350to450" />
+<Region tag="CR1l2jMET450toInf" label="CR1l2jMET450toInf" />
+<Region tag="CR1l3jMET250to350" label="CR1l3jMET250to350" />
+<Region tag="CR1l3jMET350to450" label="CR1l3jMET350to450" />
+<Region tag="CR1l3jMET450to550" label="CR1l3jMET450to550" />
+<Region tag="CR1l3jMET550toInf" label="CR1l3jMET550toInf" />
+<Region tag="CR1l4jMET250to350lowMT2W" label="CR1l4jMET250to350lowMT2W" />
+<Region tag="CR1l4jMET350to450lowMT2W" label="CR1l4jMET350to450lowMT2W" />
+<Region tag="CR1l4jMET450toInflowMT2W" label="CR1l4jMET450toInflowMT2W" />
+<Region tag="CR1l4jMET250to350highMT2W" label="CR1l4jMET250to350highMT2W" />
+<Region tag="CR1l4jMET350to450highMT2W" label="CR1l4jMET350to450highMT2W" />
+<Region tag="CR1l4jMET450to550highMT2W" label="CR1l4jMET450to550highMT2W" />
+<Region tag="CR1l4jMET550to650highMT2W" label="CR1l4jMET550to650highMT2W" />
+<Region tag="CR1l4jMET650toInfhighMT2W" label="CR1l4jMET650toInfhighMT2W" />
+</Regions>
+<Channels>
+<Channel tag="lepChannel" label="lepChannel" />
+</Channels>
+<ProcessClasses>
+<ProcessClass tag="rare" label="rare" type="background" color="600" />
+<ProcessClass tag="throw" label="throw" type="signal" color="600" />
+<ProcessClass tag="408.000000_225.000000" label="408.000000_225.000000" type="signal" color="600" />
+<ProcessClass tag="417.000000_250.000000" label="417.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_125.000000" label="425.000000_125.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_150.000000" label="425.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_175.000000" label="425.000000_175.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_200.000000" label="425.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_225.000000" label="425.000000_225.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_250.000000" label="425.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_275.000000" label="425.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_300.000000" label="425.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_325.000000" label="425.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="425.000000_338.000000" label="425.000000_338.000000" type="signal" color="600" />
+<ProcessClass tag="433.000000_250.000000" label="433.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="442.000000_275.000000" label="442.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_1.000000" label="450.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_50.000000" label="450.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_100.000000" label="450.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_150.000000" label="450.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_175.000000" label="450.000000_175.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_200.000000" label="450.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_225.000000" label="450.000000_225.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_250.000000" label="450.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_275.000000" label="450.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_300.000000" label="450.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_325.000000" label="450.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_350.000000" label="450.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="450.000000_363.000000" label="450.000000_363.000000" type="signal" color="600" />
+<ProcessClass tag="458.000000_275.000000" label="458.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="467.000000_300.000000" label="467.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_175.000000" label="475.000000_175.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_200.000000" label="475.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_225.000000" label="475.000000_225.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_250.000000" label="475.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_275.000000" label="475.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_300.000000" label="475.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_325.000000" label="475.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_350.000000" label="475.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_375.000000" label="475.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="475.000000_388.000000" label="475.000000_388.000000" type="signal" color="600" />
+<ProcessClass tag="483.000000_300.000000" label="483.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="492.000000_325.000000" label="492.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_1.000000" label="500.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_50.000000" label="500.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_100.000000" label="500.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_150.000000" label="500.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_200.000000" label="500.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_225.000000" label="500.000000_225.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_250.000000" label="500.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_275.000000" label="500.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_300.000000" label="500.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_325.000000" label="500.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_350.000000" label="500.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_375.000000" label="500.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_400.000000" label="500.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="500.000000_413.000000" label="500.000000_413.000000" type="signal" color="600" />
+<ProcessClass tag="508.000000_325.000000" label="508.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="517.000000_350.000000" label="517.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_225.000000" label="525.000000_225.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_250.000000" label="525.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_275.000000" label="525.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_300.000000" label="525.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_325.000000" label="525.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_350.000000" label="525.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_375.000000" label="525.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_400.000000" label="525.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_425.000000" label="525.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="525.000000_438.000000" label="525.000000_438.000000" type="signal" color="600" />
+<ProcessClass tag="533.000000_350.000000" label="533.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="542.000000_375.000000" label="542.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_1.000000" label="550.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_50.000000" label="550.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_100.000000" label="550.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_150.000000" label="550.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_200.000000" label="550.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_250.000000" label="550.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_275.000000" label="550.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_300.000000" label="550.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_325.000000" label="550.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_350.000000" label="550.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_375.000000" label="550.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_400.000000" label="550.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_425.000000" label="550.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_450.000000" label="550.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="550.000000_463.000000" label="550.000000_463.000000" type="signal" color="600" />
+<ProcessClass tag="558.000000_375.000000" label="558.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="567.000000_400.000000" label="567.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_275.000000" label="575.000000_275.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_300.000000" label="575.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_325.000000" label="575.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_350.000000" label="575.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_375.000000" label="575.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_400.000000" label="575.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_425.000000" label="575.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_450.000000" label="575.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_475.000000" label="575.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="575.000000_488.000000" label="575.000000_488.000000" type="signal" color="600" />
+<ProcessClass tag="583.000000_400.000000" label="583.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="592.000000_425.000000" label="592.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_1.000000" label="600.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_50.000000" label="600.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_100.000000" label="600.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_150.000000" label="600.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_200.000000" label="600.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_250.000000" label="600.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_300.000000" label="600.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_325.000000" label="600.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_350.000000" label="600.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_375.000000" label="600.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_400.000000" label="600.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_425.000000" label="600.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_450.000000" label="600.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_475.000000" label="600.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_500.000000" label="600.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="600.000000_513.000000" label="600.000000_513.000000" type="signal" color="600" />
+<ProcessClass tag="608.000000_425.000000" label="608.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="617.000000_450.000000" label="617.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_325.000000" label="625.000000_325.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_350.000000" label="625.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_375.000000" label="625.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_400.000000" label="625.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_425.000000" label="625.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_450.000000" label="625.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_475.000000" label="625.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_500.000000" label="625.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_525.000000" label="625.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="625.000000_538.000000" label="625.000000_538.000000" type="signal" color="600" />
+<ProcessClass tag="633.000000_450.000000" label="633.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="642.000000_475.000000" label="642.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_1.000000" label="650.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_50.000000" label="650.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_100.000000" label="650.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_150.000000" label="650.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_200.000000" label="650.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_250.000000" label="650.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_300.000000" label="650.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_350.000000" label="650.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_375.000000" label="650.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_400.000000" label="650.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_425.000000" label="650.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_450.000000" label="650.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_475.000000" label="650.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_500.000000" label="650.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_525.000000" label="650.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_550.000000" label="650.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="650.000000_563.000000" label="650.000000_563.000000" type="signal" color="600" />
+<ProcessClass tag="658.000000_475.000000" label="658.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="667.000000_500.000000" label="667.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_375.000000" label="675.000000_375.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_400.000000" label="675.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_425.000000" label="675.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_450.000000" label="675.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_475.000000" label="675.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_500.000000" label="675.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_525.000000" label="675.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_550.000000" label="675.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_575.000000" label="675.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="675.000000_588.000000" label="675.000000_588.000000" type="signal" color="600" />
+<ProcessClass tag="683.000000_500.000000" label="683.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="692.000000_525.000000" label="692.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_1.000000" label="700.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_50.000000" label="700.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_100.000000" label="700.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_150.000000" label="700.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_200.000000" label="700.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_250.000000" label="700.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_300.000000" label="700.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_350.000000" label="700.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_400.000000" label="700.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_425.000000" label="700.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_450.000000" label="700.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_475.000000" label="700.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_500.000000" label="700.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_525.000000" label="700.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_550.000000" label="700.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_575.000000" label="700.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_600.000000" label="700.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="700.000000_613.000000" label="700.000000_613.000000" type="signal" color="600" />
+<ProcessClass tag="708.000000_525.000000" label="708.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="717.000000_550.000000" label="717.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_425.000000" label="725.000000_425.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_450.000000" label="725.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_475.000000" label="725.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_500.000000" label="725.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_525.000000" label="725.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_550.000000" label="725.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_575.000000" label="725.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_600.000000" label="725.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_625.000000" label="725.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="725.000000_638.000000" label="725.000000_638.000000" type="signal" color="600" />
+<ProcessClass tag="733.000000_550.000000" label="733.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="742.000000_575.000000" label="742.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_1.000000" label="750.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_50.000000" label="750.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_100.000000" label="750.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_150.000000" label="750.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_200.000000" label="750.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_250.000000" label="750.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_300.000000" label="750.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_350.000000" label="750.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_400.000000" label="750.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_450.000000" label="750.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_475.000000" label="750.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_500.000000" label="750.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_525.000000" label="750.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_550.000000" label="750.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_575.000000" label="750.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_600.000000" label="750.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_625.000000" label="750.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="750.000000_650.000000" label="750.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="758.000000_575.000000" label="758.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="767.000000_600.000000" label="767.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_475.000000" label="775.000000_475.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_500.000000" label="775.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_525.000000" label="775.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_550.000000" label="775.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_575.000000" label="775.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_600.000000" label="775.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_625.000000" label="775.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="775.000000_650.000000" label="775.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="783.000000_600.000000" label="783.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="792.000000_625.000000" label="792.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_1.000000" label="800.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_50.000000" label="800.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_100.000000" label="800.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_150.000000" label="800.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_200.000000" label="800.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_250.000000" label="800.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_300.000000" label="800.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_350.000000" label="800.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_400.000000" label="800.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_450.000000" label="800.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_500.000000" label="800.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_525.000000" label="800.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_550.000000" label="800.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_575.000000" label="800.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_600.000000" label="800.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_625.000000" label="800.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="800.000000_650.000000" label="800.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="808.000000_625.000000" label="808.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="817.000000_650.000000" label="817.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="825.000000_525.000000" label="825.000000_525.000000" type="signal" color="600" />
+<ProcessClass tag="825.000000_550.000000" label="825.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="825.000000_575.000000" label="825.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="825.000000_600.000000" label="825.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="825.000000_625.000000" label="825.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="825.000000_650.000000" label="825.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="833.000000_650.000000" label="833.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_1.000000" label="850.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_50.000000" label="850.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_100.000000" label="850.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_150.000000" label="850.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_200.000000" label="850.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_250.000000" label="850.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_300.000000" label="850.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_350.000000" label="850.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_400.000000" label="850.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_450.000000" label="850.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_500.000000" label="850.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_550.000000" label="850.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_575.000000" label="850.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_600.000000" label="850.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_625.000000" label="850.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="850.000000_650.000000" label="850.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="875.000000_575.000000" label="875.000000_575.000000" type="signal" color="600" />
+<ProcessClass tag="875.000000_600.000000" label="875.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="875.000000_625.000000" label="875.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="875.000000_650.000000" label="875.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_1.000000" label="900.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_50.000000" label="900.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_100.000000" label="900.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_150.000000" label="900.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_200.000000" label="900.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_250.000000" label="900.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_300.000000" label="900.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_350.000000" label="900.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_400.000000" label="900.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_450.000000" label="900.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_500.000000" label="900.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_550.000000" label="900.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_600.000000" label="900.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_625.000000" label="900.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="900.000000_650.000000" label="900.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="925.000000_625.000000" label="925.000000_625.000000" type="signal" color="600" />
+<ProcessClass tag="925.000000_650.000000" label="925.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_1.000000" label="950.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_50.000000" label="950.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_100.000000" label="950.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_150.000000" label="950.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_200.000000" label="950.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_250.000000" label="950.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_300.000000" label="950.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_350.000000" label="950.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_400.000000" label="950.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_450.000000" label="950.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_500.000000" label="950.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_550.000000" label="950.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_600.000000" label="950.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="950.000000_650.000000" label="950.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_1.000000" label="1000.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_50.000000" label="1000.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_100.000000" label="1000.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_150.000000" label="1000.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_200.000000" label="1000.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_250.000000" label="1000.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_300.000000" label="1000.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_350.000000" label="1000.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_400.000000" label="1000.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_450.000000" label="1000.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_500.000000" label="1000.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_550.000000" label="1000.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_600.000000" label="1000.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="1000.000000_650.000000" label="1000.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_1.000000" label="1050.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_50.000000" label="1050.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_100.000000" label="1050.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_150.000000" label="1050.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_200.000000" label="1050.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_250.000000" label="1050.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_300.000000" label="1050.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_350.000000" label="1050.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_400.000000" label="1050.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_450.000000" label="1050.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_500.000000" label="1050.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_550.000000" label="1050.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_600.000000" label="1050.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="1050.000000_650.000000" label="1050.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_1.000000" label="1100.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_50.000000" label="1100.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_100.000000" label="1100.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_150.000000" label="1100.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_200.000000" label="1100.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_250.000000" label="1100.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_300.000000" label="1100.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_350.000000" label="1100.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_400.000000" label="1100.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_450.000000" label="1100.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_500.000000" label="1100.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_550.000000" label="1100.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_600.000000" label="1100.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="1100.000000_650.000000" label="1100.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_1.000000" label="1150.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_50.000000" label="1150.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_100.000000" label="1150.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_150.000000" label="1150.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_200.000000" label="1150.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_250.000000" label="1150.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_300.000000" label="1150.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_350.000000" label="1150.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_400.000000" label="1150.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_450.000000" label="1150.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_500.000000" label="1150.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_550.000000" label="1150.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_600.000000" label="1150.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="1150.000000_650.000000" label="1150.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_1.000000" label="1200.000000_1.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_50.000000" label="1200.000000_50.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_100.000000" label="1200.000000_100.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_150.000000" label="1200.000000_150.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_200.000000" label="1200.000000_200.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_250.000000" label="1200.000000_250.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_300.000000" label="1200.000000_300.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_350.000000" label="1200.000000_350.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_400.000000" label="1200.000000_400.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_450.000000" label="1200.000000_450.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_500.000000" label="1200.000000_500.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_550.000000" label="1200.000000_550.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_600.000000" label="1200.000000_600.000000" type="signal" color="600" />
+<ProcessClass tag="1200.000000_650.000000" label="1200.000000_650.000000" type="signal" color="600" />
+<ProcessClass tag="data" label="data" type="data" color="880" />
+<ProcessClass tag="test" label="test" type="background" color="632" />
+<ProcessClass tag="lostLepton" label="lostLepton" type="background" color="900" />
+<ProcessClass tag="singleLepton" label="singleLepton" type="background" color="416" />
+<ProcessClass tag="singleLeptonFromT" label="singleLeptonFromT" type="background" color="416" />
+</ProcessClasses>
+<Datasets>
+<Dataset tag="ttZ" label="rare" processClass="rare" XsecOrLumi="0.7826" getTrueNumberOfEvents="0" />
+<Dataset tag="tZq" label="rare" processClass="rare" XsecOrLumi="0.0758" getTrueNumberOfEvents="0" />
+<Dataset tag="ZZ" label="rare" processClass="rare" XsecOrLumi="0.564" getTrueNumberOfEvents="0" />
+<Dataset tag="WZ" label="test" processClass="test" XsecOrLumi="3.06" getTrueNumberOfEvents="0" />
+<Dataset tag="SE_0" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SE_1" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SM_0" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="SM_1" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="MET_0" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="MET_1" label="data" processClass="data" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_s" label="test" processClass="test" XsecOrLumi="3.68182" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_tW_top" label="test" processClass="test" XsecOrLumi="19.5592" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_tW_atop" label="test" processClass="test" XsecOrLumi="19.5592" getTrueNumberOfEvents="0" />
+<Dataset tag="ST_t" label="test" processClass="test" XsecOrLumi="26.2278" getTrueNumberOfEvents="0" />
+<Dataset tag="TTJetsSLtop" label="test" processClass="test" XsecOrLumi="182.672" getTrueNumberOfEvents="0" />
+<Dataset tag="TTJetsSLatop" label="test" processClass="test" XsecOrLumi="182.672" getTrueNumberOfEvents="0" />
+<Dataset tag="TTJetsDL" label="test" processClass="test" XsecOrLumi="87.3154" getTrueNumberOfEvents="0" />
+<Dataset tag="W1JetsToLNuTune" label="test" processClass="test" XsecOrLumi="11752.3" getTrueNumberOfEvents="0" />
+<Dataset tag="W2JetsToLNuTune" label="test" processClass="test" XsecOrLumi="3840.72" getTrueNumberOfEvents="0" />
+<Dataset tag="W3JetsToLNuTune" label="test" processClass="test" XsecOrLumi="1159.97" getTrueNumberOfEvents="0" />
+<Dataset tag="W4JetsToLNuTune" label="test" processClass="test" XsecOrLumi="583.959" getTrueNumberOfEvents="0" />
+<Dataset tag="TTWtoQQ" label="test" processClass="test" XsecOrLumi="0.4062" getTrueNumberOfEvents="0" />
+<Dataset tag="TTWtoLNu" label="test" processClass="test" XsecOrLumi="0.2043" getTrueNumberOfEvents="0" />
+<Dataset tag="TTT" label="test" processClass="test" XsecOrLumi="1" getTrueNumberOfEvents="0" />
+<Dataset tag="VV" label="test" processClass="test" XsecOrLumi="11.95" getTrueNumberOfEvents="0" />
+</Datasets>

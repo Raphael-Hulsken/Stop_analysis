@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Variables>
+<Variable tag="yield" label="Yield" unit="" nbins="1" min="-0.5" max="0.5"/>
+<Variable tag="MET" label="MET" unit="GeV" nbins="25" min="0" max="500"/>
+<Variable tag="MET2" label="MET" unit="GeV" nbins="6" binning="0-50-100-150-200-250500-"/>
+<Variable tag="topness" label="topness" unit="" nbins="20" min="-20" max="20"/>
+<Variable tag="nJets" label="nJets" unit="" nbins="8" min="0.5" max="8.5"/>
+<Variable tag="nBJets" label="nBJets" unit="" nbins="4" min="0.5" max="4.5"/>
+<Variable tag="ak4_HT" label="ak4_HT" unit="GeV" nbins="25" min="0" max="500"/>
+<Variable tag="lep_pt" label="p_{T}(lep)" unit="GeV" nbins="50" min="0" max="500"/>
+<Variable tag="lep_eta" label="eta (lep)" unit="" nbins="50" min="-2.5" max="2.5"/>
+<Variable tag="deta_lep" label="#Delta#eta(l,l)" unit="" nbins="25" min="0" max="3.14159"/>
+<Variable tag="dphi_lep" label="#Delta#phi(l,l)" unit="" nbins="25" min="0" max="3.14159"/>
+<Variable tag="super_dphi_lep" label="#Delta#phi(l,l)" unit="" nbins="100" min="0" max="12.5664"/>
+<Variable tag="super_deta_lep" label="#Delta#eta(l,l)" unit="" nbins="100" min="0" max="12.5664"/>
+<Variable tag="category" label="category" unit="" nbins="4" min="-0.5" max="3.5"/>
+<Variable tag="dphi_deta" label="" unit="" nbins="25" min="-0.5" max="25.5"/>
+<Variable tag="super_dphi_deta" label="" unit="" nbins="100" min="0" max="100"/>
+<Variable tag="leadjet_pt" label="leading jet p_{T}" unit="GeV" nbins="10" min="0" max="500"/>
+<Variable tag="Meff" label="Mass effective" unit="GeV" nbins="50" min="0" max="1000"/>
+<Variable tag="StopMass" label="stop mass" unit="GeV" nbins="24" min="140" max="260"/>
+<Variable tag="NeutralinoMass" label="lsp mass" unit="GeV" nbins="20" min="0" max="100"/>
+</Variables>
+<Regions>
+<Region tag="SR_2l" label="" />
+<Region tag="SR_2l_3j_incl" label="" />
+<Region tag="SR_2l_lowMass" label="" />
+<Region tag="SR_2l_2j_lowMass" label="" />
+<Region tag="SR_2l_2j" label="" />
+<Region tag="SR_2l_3j" label="" />
+<Region tag="SR_2l_4j" label="" />
+<Region tag="SR_2l_ISR" label="" />
+</Regions>
+<Channels>
+<Channel tag="lepChannel" label="" />
+</Channels>
+<ProcessClasses>
+<ProcessClass tag="ttbar" label="t#bar{t}" type="background" color="600" />
+<ProcessClass tag="T2tt" label="T2tt" type="signal" color="632" />
+<ProcessClass tag="175-0" label="175-0" type="signal" color="628" />
+<ProcessClass tag="200-25" label="200-25" type="signal" color="630" />
+<ProcessClass tag="225-50" label="225-50" type="signal" color="632" />
+<ProcessClass tag="250-75" label="250-75" type="signal" color="634" />
+<ProcessClass tag="stop" label="stop" type="background" color="416" />
+</ProcessClasses>
+<Datasets>
+<Dataset tag="TTJetsDLv0v4" label="ttbar" processClass="ttbar" XsecOrLumi="87.3154" getTrueNumberOfEvents="0" />
+<Dataset tag="T2tt_250to350" label="T2tt" processClass="T2tt" XsecOrLumi="-1" getTrueNumberOfEvents="1" />
+</Datasets>

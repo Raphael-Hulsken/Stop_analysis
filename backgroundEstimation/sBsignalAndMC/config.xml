@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Variables>
+<Variable tag="yield" label="Yield" unit="" nbins="1" min="-0.5" max="0.5"/>
+<Variable tag="MET" label="MET" unit="MET" nbins="100" min="200" max="1000"/>
+<Variable tag="MT2W" label="MT2W" unit="MT2W" nbins="100" min="0" max="500"/>
+<Variable tag="MT" label="MT" unit="MT" nbins="100" min="100" max="1000"/>
+<Variable tag="nJets" label="nJets" unit="nJets" nbins="10" min="0.5" max="10.5"/>
+<Variable tag="nBJets" label="nBJets" unit="nBJets" nbins="5" min="0.5" max="5.5"/>
+<Variable tag="topnessMod" label="topnessMod" unit="topnessMod" nbins="20" min="-20" max="20"/>
+<Variable tag="dphi" label="dphi" unit="dphi" nbins="100" min="0" max="3.5"/>
+<Variable tag="Mlb" label="Mlb" unit="Mlb" nbins="100" min="0" max="500"/>
+<Variable tag="StopMass" label="stop mass" unit="GeV" nbins="61" min="-12.5" max="1512.5"/>
+<Variable tag="NeutralinoMass" label="lsp mass" unit="GeV" nbins="41" min="-12.5" max="1012.5"/>
+</Variables>
+<Regions>
+<Region tag="SR1l_A_250lessMETless350" label="SR1l_A_250lessMETless350" />
+<Region tag="SR1l_A_350lessMETless450" label="SR1l_A_350lessMETless450" />
+<Region tag="SR1l_A_450lessMETless600" label="SR1l_A_450lessMETless600" />
+<Region tag="SR1l_A_600lessMETlessInf" label="SR1l_A_600lessMETlessInf" />
+<Region tag="SR1l_B_250lessMETless450" label="SR1l_B_250lessMETless450" />
+<Region tag="SR1l_B_450lessMETless600" label="SR1l_B_450lessMETless600" />
+<Region tag="SR1l_B_600lessMETlessInf" label="SR1l_B_600lessMETlessInf" />
+<Region tag="SR1l_C_250lessMETless350" label="SR1l_C_250lessMETless350" />
+<Region tag="SR1l_C_350lessMETless450" label="SR1l_C_350lessMETless450" />
+<Region tag="SR1l_C_450lessMETless550" label="SR1l_C_450lessMETless550" />
+<Region tag="SR1l_C_550lessMETless650" label="SR1l_C_550lessMETless650" />
+<Region tag="SR1l_C_650lessMETlessInf" label="SR1l_C_650lessMETlessInf" />
+<Region tag="SR1l_D_250lessMETless350" label="SR1l_D_250lessMETless350" />
+<Region tag="SR1l_D_350lessMETless450" label="SR1l_D_350lessMETless450" />
+<Region tag="SR1l_D_450lessMETless550" label="SR1l_D_450lessMETless550" />
+<Region tag="SR1l_D_550lessMETlessInf" label="SR1l_D_550lessMETlessInf" />
+<Region tag="SR1l_E_250lessMETless350" label="SR1l_E_250lessMETless350" />
+<Region tag="SR1l_E_350lessMETless550" label="SR1l_E_350lessMETless550" />
+<Region tag="SR1l_E_550lessMETlessInf" label="SR1l_E_550lessMETlessInf" />
+<Region tag="SR1l_F_250lessMETless450" label="SR1l_F_250lessMETless450" />
+<Region tag="SR1l_F_450lessMETlessInf" label="SR1l_F_450lessMETlessInf" />
+<Region tag="SR1l_G_250lessMETless350" label="SR1l_G_250lessMETless350" />
+<Region tag="SR1l_G_350lessMETless450" label="SR1l_G_350lessMETless450" />
+<Region tag="SR1l_G_450lessMETless600" label="SR1l_G_450lessMETless600" />
+<Region tag="SR1l_G_600lessMETlessInf" label="SR1l_G_600lessMETlessInf" />
+<Region tag="SR1l_H_250lessMETless450" label="SR1l_H_250lessMETless450" />
+<Region tag="SR1l_H_450lessMETlessInf" label="SR1l_H_450lessMETlessInf" />
+<Region tag="SR1l_I_250lessMETless350" label="SR1l_I_250lessMETless350" />
+<Region tag="SR1l_I_350lessMETless450" label="SR1l_I_350lessMETless450" />
+<Region tag="SR1l_I_450lessMETless550" label="SR1l_I_450lessMETless550" />
+<Region tag="SR1l_I_550lessMETlessInf" label="SR1l_I_550lessMETlessInf" />
+</Regions>
+<Channels>
+<Channel tag="lepChannel" label="lepChannel" />
+</Channels>
+<ProcessClasses>
+<ProcessClass tag="bkgOneLepFromW" label="bkgOneLepFromW" type="background" color="600" />
+<ProcessClass tag="bkgOneLepFromTop" label="bkgOneLepFromTop" type="background" color="600" />
+<ProcessClass tag="bkgLostLepton" label="bkgLostLepton" type="background" color="600" />
+<ProcessClass tag="bkgZnunu" label="bkgZnunu" type="background" color="600" />
+<ProcessClass tag="throw" label="throw" type="signal" color="600" />
+</ProcessClasses>
+<Datasets>
+<Dataset tag="W1JetsToLNu_madgraph_pythia8_25ns" label="bkgOneLepFromW" processClass="bkgOneLepFromW" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="W2JetsToLNu_madgraph_pythia8_25ns" label="bkgOneLepFromW" processClass="bkgOneLepFromW" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="W3JetsToLNu_madgraph_pythia8_25ns" label="bkgOneLepFromW" processClass="bkgOneLepFromW" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="W4JetsToLNu_madgraph_pythia8_25ns" label="bkgOneLepFromW" processClass="bkgOneLepFromW" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ttbar_singleLeptFromTbar_madgraph_pythia8_25ns" label="bkgOneLepFromTop" processClass="bkgOneLepFromTop" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ttbar_singleLeptFromT_madgraph_pythia8_25ns" label="bkgOneLepFromTop" processClass="bkgOneLepFromTop" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ttbar_diLept_madgraph_pythia8_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="t_sch_4f_amcnlo_pythia8_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="t_tW_5f_powheg_pythia8_noHadDecays_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="t_tbarW_5f_powheg_pythia8_noHadDecays_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="t_tch_4f_powheg_pythia8_inclDecays_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ttWJets_13TeV_madgraphMLM" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="WWTo2l2Nu_powheg_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="WWToLNuQQ_powheg_25ns" label="bkgLostLepton" processClass="bkgLostLepton" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ttZJets_13TeV_madgraphMLM" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="WZTo1L3Nu_amcnlo_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="WZTo1LNu2Q_amcnlo_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="WZTo3LNu_powheg_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ZZTo2L2Nu_powheg_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ZZTo2L2Q_amcnlo_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ZZTo2Q2Nu_amcnlo_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="ZZTo4L_powheg_pythia8_25ns" label="bkgZnunu" processClass="bkgZnunu" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW_1" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW_2" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW_3" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW_4" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW_5" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+<Dataset tag="Signal_T6ttWW_6" label="throw" processClass="throw" XsecOrLumi="0" getTrueNumberOfEvents="0" />
+</Datasets>
