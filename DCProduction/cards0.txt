@@ -1,0 +1,25 @@
+## datacard with 1 MET bins
+---
+imax 1 number of channels
+jmax 3 number of backgrounds (TTbar2l, WJets)
+kmax 3 number of nuisance parameters (sources of systematical uncertainties)
+---
+## data yields
+bin		0
+observation		0.00
+---
+## we list the expected events for signal and all backgrounds in the bins
+## the second process line must have a positive number for backgrounds, and 0 for signal
+---
+bin		0	0	0
+process		signal	TTbar2l	WJets
+process		0	1	2
+rate		0.00	116550.98	120235.92
+---
+## then we list the independent sources of uncertainties, and give their effect (syst. error)
+## on each process and bin
+---
+signalSyst0	lnN	1.30	-	-	
+TTbar2lSyst0	lnN	-	1.30	-	
+WJetsSyst0	lnN	-	-	1.30	
+---
