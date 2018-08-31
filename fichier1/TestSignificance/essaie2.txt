@@ -1,0 +1,5 @@
+
+ -- Profile Likelihood -- 
+Significance: 1.10505
+       (p-value = 0.134568)
+Done in 0.00 min (cpu), 0.00 min (real)

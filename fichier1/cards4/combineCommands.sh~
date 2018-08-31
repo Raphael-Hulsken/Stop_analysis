@@ -1,0 +1,91 @@
+rm allLimits.root
+rm allLimits2.root
+rm higgsCombine*.root
+combine -M Asymptotic 200_0.tab -n 200_0
+combine -M ProfileLikelihood --significance 200_0.tab -t -1 --expectSignal=1 --toysFreq -n 200_0
+combine -M Asymptotic 225_25.tab -n 225_25
+combine -M ProfileLikelihood --significance 225_25.tab -t -1 --expectSignal=1 --toysFreq -n 225_25
+combine -M Asymptotic 250_0.tab -n 250_0
+combine -M ProfileLikelihood --significance 250_0.tab -t -1 --expectSignal=1 --toysFreq -n 250_0
+combine -M Asymptotic 250_25.tab -n 250_25
+combine -M ProfileLikelihood --significance 250_25.tab -t -1 --expectSignal=1 --toysFreq -n 250_25
+combine -M Asymptotic 250_50.tab -n 250_50
+combine -M ProfileLikelihood --significance 250_50.tab -t -1 --expectSignal=1 --toysFreq -n 250_50
+combine -M Asymptotic 275_75.tab -n 275_75
+combine -M ProfileLikelihood --significance 275_75.tab -t -1 --expectSignal=1 --toysFreq -n 275_75
+combine -M Asymptotic 300_0.tab -n 300_0
+combine -M ProfileLikelihood --significance 300_0.tab -t -1 --expectSignal=1 --toysFreq -n 300_0
+combine -M Asymptotic 300_25.tab -n 300_25
+combine -M ProfileLikelihood --significance 300_25.tab -t -1 --expectSignal=1 --toysFreq -n 300_25
+combine -M Asymptotic 300_50.tab -n 300_50
+combine -M ProfileLikelihood --significance 300_50.tab -t -1 --expectSignal=1 --toysFreq -n 300_50
+combine -M Asymptotic 300_75.tab -n 300_75
+combine -M ProfileLikelihood --significance 300_75.tab -t -1 --expectSignal=1 --toysFreq -n 300_75
+combine -M Asymptotic 300_100.tab -n 300_100
+combine -M ProfileLikelihood --significance 300_100.tab -t -1 --expectSignal=1 --toysFreq -n 300_100
+combine -M Asymptotic 325_75.tab -n 325_75
+combine -M ProfileLikelihood --significance 325_75.tab -t -1 --expectSignal=1 --toysFreq -n 325_75
+combine -M Asymptotic 325_100.tab -n 325_100
+combine -M ProfileLikelihood --significance 325_100.tab -t -1 --expectSignal=1 --toysFreq -n 325_100
+combine -M Asymptotic 325_125.tab -n 325_125
+combine -M ProfileLikelihood --significance 325_125.tab -t -1 --expectSignal=1 --toysFreq -n 325_125
+combine -M Asymptotic 350_0.tab -n 350_0
+combine -M ProfileLikelihood --significance 350_0.tab -t -1 --expectSignal=1 --toysFreq -n 350_0
+combine -M Asymptotic 350_25.tab -n 350_25
+combine -M ProfileLikelihood --significance 350_25.tab -t -1 --expectSignal=1 --toysFreq -n 350_25
+combine -M Asymptotic 350_50.tab -n 350_50
+combine -M ProfileLikelihood --significance 350_50.tab -t -1 --expectSignal=1 --toysFreq -n 350_50
+combine -M Asymptotic 350_75.tab -n 350_75
+combine -M ProfileLikelihood --significance 350_75.tab -t -1 --expectSignal=1 --toysFreq -n 350_75
+combine -M Asymptotic 350_100.tab -n 350_100
+combine -M ProfileLikelihood --significance 350_100.tab -t -1 --expectSignal=1 --toysFreq -n 350_100
+combine -M Asymptotic 350_125.tab -n 350_125
+combine -M ProfileLikelihood --significance 350_125.tab -t -1 --expectSignal=1 --toysFreq -n 350_125
+combine -M Asymptotic 350_150.tab -n 350_150
+combine -M ProfileLikelihood --significance 350_150.tab -t -1 --expectSignal=1 --toysFreq -n 350_150
+combine -M Asymptotic 375_75.tab -n 375_75
+combine -M ProfileLikelihood --significance 375_75.tab -t -1 --expectSignal=1 --toysFreq -n 375_75
+combine -M Asymptotic 375_100.tab -n 375_100
+combine -M ProfileLikelihood --significance 375_100.tab -t -1 --expectSignal=1 --toysFreq -n 375_100
+combine -M Asymptotic 375_125.tab -n 375_125
+combine -M ProfileLikelihood --significance 375_125.tab -t -1 --expectSignal=1 --toysFreq -n 375_125
+combine -M Asymptotic 375_150.tab -n 375_150
+combine -M ProfileLikelihood --significance 375_150.tab -t -1 --expectSignal=1 --toysFreq -n 375_150
+combine -M Asymptotic 375_175.tab -n 375_175
+combine -M ProfileLikelihood --significance 375_175.tab -t -1 --expectSignal=1 --toysFreq -n 375_175
+combine -M Asymptotic 400_0.tab -n 400_0
+combine -M ProfileLikelihood --significance 400_0.tab -t -1 --expectSignal=1 --toysFreq -n 400_0
+combine -M Asymptotic 400_25.tab -n 400_25
+combine -M ProfileLikelihood --significance 400_25.tab -t -1 --expectSignal=1 --toysFreq -n 400_25
+combine -M Asymptotic 400_50.tab -n 400_50
+combine -M ProfileLikelihood --significance 400_50.tab -t -1 --expectSignal=1 --toysFreq -n 400_50
+combine -M Asymptotic 400_100.tab -n 400_100
+combine -M ProfileLikelihood --significance 400_100.tab -t -1 --expectSignal=1 --toysFreq -n 400_100
+combine -M Asymptotic 400_125.tab -n 400_125
+combine -M ProfileLikelihood --significance 400_125.tab -t -1 --expectSignal=1 --toysFreq -n 400_125
+combine -M Asymptotic 400_150.tab -n 400_150
+combine -M ProfileLikelihood --significance 400_150.tab -t -1 --expectSignal=1 --toysFreq -n 400_150
+combine -M Asymptotic 400_175.tab -n 400_175
+combine -M ProfileLikelihood --significance 400_175.tab -t -1 --expectSignal=1 --toysFreq -n 400_175
+combine -M Asymptotic 400_200.tab -n 400_200
+combine -M ProfileLikelihood --significance 400_200.tab -t -1 --expectSignal=1 --toysFreq -n 400_200
+combine -M Asymptotic 425_125.tab -n 425_125
+combine -M ProfileLikelihood --significance 425_125.tab -t -1 --expectSignal=1 --toysFreq -n 425_125
+combine -M Asymptotic 425_150.tab -n 425_150
+combine -M ProfileLikelihood --significance 425_150.tab -t -1 --expectSignal=1 --toysFreq -n 425_150
+combine -M Asymptotic 425_175.tab -n 425_175
+combine -M ProfileLikelihood --significance 425_175.tab -t -1 --expectSignal=1 --toysFreq -n 425_175
+combine -M Asymptotic 425_200.tab -n 425_200
+combine -M ProfileLikelihood --significance 425_200.tab -t -1 --expectSignal=1 --toysFreq -n 425_200
+combine -M Asymptotic 425_225.tab -n 425_225
+combine -M ProfileLikelihood --significance 425_225.tab -t -1 --expectSignal=1 --toysFreq -n 425_225
+combine -M Asymptotic 450_0.tab -n 450_0
+combine -M ProfileLikelihood --significance 450_0.tab -t -1 --expectSignal=1 --toysFreq -n 450_0
+combine -M Asymptotic 450_25.tab -n 450_25
+combine -M ProfileLikelihood --significance 450_25.tab -t -1 --expectSignal=1 --toysFreq -n 450_25
+combine -M Asymptotic 450_50.tab -n 450_50
+combine -M ProfileLikelihood --significance 450_50.tab -t -1 --expectSignal=1 --toysFreq -n 450_50
+combine -M Asymptotic 450_100.tab -n 450_100
+combine -M ProfileLikelihood --significance 450_100.tab -t -1 --expectSignal=1 --toysFreq -n 450_100
+hadd allLimits.root higgsCombine*.Asymptotic.mH120.root
+hadd allLimits2.root higgsCombine*.ProfileLikelihood.mH120.root

@@ -1,0 +1,15 @@
+#include <exception>
+#include <iostream>
+#include "stdlib.h"
+#include "TH1F.h"
+#include "THStack.h"
+#include "TCanvas.h"
+#include "TROOT.h"
+#include "TFrame.h"
+#include "TStyle.h"
+#include "../sonicScrewdriver/interface/SonicScrewdriver.h"
+#include "../sonicScrewdriver/interface/Table.h"
+#include "interface/Figure.h"
+
+using namespace std;
+using namespace theDoctor;

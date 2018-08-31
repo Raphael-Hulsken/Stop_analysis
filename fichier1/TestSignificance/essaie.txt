@@ -1,0 +1,9 @@
+
+ -- Profile Likelihood -- 
+Significance: 13.7905
+       (p-value = 1.45298e-43)
+Done in 0.00 min (cpu), 0.00 min (real)
+>>> including systematics
+>>> method used to compute upper limit is ProfileLikelihood
+>>> random number generator seed is 123456
+mass of sparticle: 1,   neutralino mass: 1

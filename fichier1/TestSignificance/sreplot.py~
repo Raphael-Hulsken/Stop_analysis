@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+import matplotlib.pyplot as plt
+import numpy as np
+
+M = np.loadtxt('value6.dat')
+
+plt.plot(M[:,0], M[:,1], 'r', label="data=12 signal =5")
+plt.plot(M[:,0], M[:,2], 'b', label="data=14 signal =5")
+plt.plot(M[:,0], M[:,3], 'g', label="data=16 signal =5")
+
+plt.axis('equal')
+
+
+plt.legend()
+plt.title('Combine with some error on the signal and background in function of the background with 0.2 incertitude')
+plt.xlabel('b')
+plt.ylabel('significance')
+plt.xscale('log')
+#plt.savefig("plot_data_file.png")
+
+plt.show()
